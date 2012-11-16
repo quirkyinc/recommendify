@@ -2,7 +2,7 @@ makefile = <<-MAKEFILE
 all: prepare build
 
 build:
-	gcc -Wall recommendify.c -lhiredis -o ../bin/recommendify
+	gcc -Wall recommendify.c -o ../bin/recommendify
 
 prepare:
 	mkdir -p ../bin
